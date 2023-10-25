@@ -1,0 +1,7 @@
+---
+- name: CIS Benchmark Compliance
+  hosts: testams
+
+  roles:
+    - role: 1_Initial_Setup
+#    - role: 2_Services
